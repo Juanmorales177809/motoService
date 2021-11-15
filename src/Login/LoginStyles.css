@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Tahoma Bold;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: white;
+    font-family: Tahoma Bold;
+    color: black;
+    
+  }
+
+  .h1 {
+    float: left;
+    padding: 1px 0px;
+    font-size: 40px;
+  }
+  
+  .menu li {
+    float: right;
+    padding: 0px 0px;
+  }
+  
+  .menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 900;
+    
+  }
+  
+.linea {
+    border-top: 3px solid black;
+    height: 5px;
+    padding: 0;
+    margin: 0px auto 0 auto;
+  }
+
+.form-login {
+    width: 300px;
+    height: 340px;
+    background: white;
+    margin: auto;
+    margin-top: -120px;
+    padding: 10px 50px 20PX;
+    padding: 20px 30px;
+    color: black; 
+    font-family: Tahoma;  
+}
+
+.form-login h5 {
+    margin: 0;
+    text-align: left;
+    line-height: 170%;
+    font-weight: 800;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid;
+    font-size: 30px;
+    font-family: tahoma;
+}
+.controls {
+    width: 20%;
+    border: 1px ;
+    border-radius:5px;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #efef91;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Tahoma Bold;
+    margin-left: 40%;
+}
+
+.sign-in-btn{
+    width: 50%;
+    height: 25px;
+    background:  #030409;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    font-family: Tahoma Bold;
+    margin-left: 110px;
+    border-radius:5px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+
+.btn-text-sigin {
+    float: right;
+    margin: 3px 20px 0 0;
+    color: #fff;
+    font-size: 12px;
+    font-family: Tahoma Bold;
+    position:relative;
+  }
+  .btn-Ini{
+    font-family:Tahoma;
+  }
+
+.form-login p{
+    height: 40px;
+    text-align: left;
+    border-bottom: 2px solid ;
+    
+}
+
+.form-login a{
+   color: black;
+   height: 40px;
+   text-decoration: none;
+   font-size: 14px;
+   top: -2px;
+   position: relative;
+   font-family: Tahoma Bold;
+   
+ 
+}
+
+   .google-btn {
+    width: 50%;
+    height: 25px;
+    top: 10px;
+    background-color: #4285f4;
+    border-radius: 5px;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+    position: relative;
+    left: 120px;
+    
+    
+   }
+
+    .google-icon-wrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 25px;
+    height: 23px;
+    border-radius: 5px;
+    background-color: #fff;
+    }
+
+    .google-icon {
+      position: absolute;
+      margin-top: 1px;
+      margin-left: 1px;
+      width: 20px;
+      height: 20px;
+    }
+    .btn-text {
+      float: right;
+      margin: 7px 10px 0 0;
+      color: #fff;
+      font-size: 10px;
+      font-family: Tahoma Bold;
+      position:relative;
+    }
+
+
+    .form-check-input {
+        display: inline-flex;
+        align-items: left;
+        cursor: pointer;
+        font-family: Tahoma Bold;
+        color: black;
+        position: relative;
+        height: 10px;
+        top: 20px;
+    }
+    
+    .form-check-label{
+        font-size: 14px;
+        position: relative;
+        height: 0px;
+        top: -5px;
+        left: 25px;
+
+    }
+
+  
+
+/*Efecto del cursor*/
+    .form-login {
+        font-family:Tahoma;
+        font-size: xx-large;
+        font-weight: bold;
+       
+    }
+        
+
+    .sign-in-btn:hover {
+        box-shadow: 0 0 6px black; 
+    }
+
+    .sign-in-btn:active {
+        box-shadow: 0 0 6px black4; 
+    }
+
+    .google-btn:hover {
+        box-shadow: 0 0 6px #4285f4; 
+    }
+
+   
+    .google-btn:active {
+        background: #1669F2;
+    }
+    .response{
+      margin-top: 10%;
+    }
+    .container-mio{
+      margin-top: 10%;
+    }
+    .subir{
+      margin-top: -20%;
+      height: 35%;
+      margin-left:39.6%;
+      width: 217px;
+      font-family: tahoma;
+      font-weight: lighter;
+    }
+    .subir1{
+      margin-top: -15%;
+      height: 35%;
+      margin-left:39.6%;
+      width: 217px;
+      font-family: tahoma;
+      font-weight: lighter;
+      
+    }
+    

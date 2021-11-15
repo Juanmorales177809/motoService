@@ -1,0 +1,67 @@
+.text{
+    text-decoration: none;
+    font-size:x-small;
+    margin-left: -10%;
+}
+.linea{
+    margin: 0%;
+}
+.text1 {
+    font-size: x-large;
+    font-family: tahoma;
+    font-weight: bold;
+
+}
+.but {
+    border-radius: 50px;
+    margin-left: 5%;
+    
+    
+}
+.contain{
+    margin-left: 30%;
+}
+.nav {
+    font-family:Tahoma;
+    
+}
+.nav1{
+    font-family:Tahoma;
+    margin-left: 1100%;
+    color: white;
+    margin-top: 10%;
+    
+}
+.btnu{
+    border-radius: 50%;
+    font-size: 15px;
+    font-family: tahoma;
+    background-color:rgb(6, 17, 13)30, 153, 124;
+    color: white;
+    border: 1px;
+    border-color: black;
+    font-weight: bold;
+
+}
+.navi{
+    background-color: rgba(6, 17, 13, 0.685);
+    border-color: rgba(6, 17, 13, 0.685);
+    font-family: tahoma;
+
+}
+.navv{
+    font-family: tahoma;
+    color: black;
+}
+.navv0{
+    text-decoration: none;
+    color: white;
+    font-family: Tahoma;
+    margin-left: -100%;
+    padding: 0%s;
+    border-radius: 35%;
+    border-color: rgba(6, 17, 13, 0.685);
+
+    
+    
+}

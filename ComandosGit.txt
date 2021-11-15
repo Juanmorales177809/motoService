@@ -1,0 +1,44 @@
+#Estos comandos solo se hacen una ves por repositorio
+#inicializar git
+git init
+#configurar nombre de usuario
+git config --global user.name "JuanCarlosMorales"
+#configurar email de github
+git config --global user.email "mutaharmorales@gmail.com"
+
+#Con estas opciones inicializadas ya se le puede hacer control al git
+#comando para verificar estado del repositorio
+git status
+#hay que decirle a git que guarde los cambios, hay que hacerlo cada ves que se haga un cambio
+git add .
+#Agregar el commit
+git commit -m "Descripciòn del cambio realizado"
+#Subir a gitHub
+git push -u origin main
+
+#Para clonar un git de un compañero
+git clone https://github.com/Juanmorales177809/misionTic.git
+
+#para mirar los cambios realizados
+git log
+#Sincronizar los cambios hechos en la nube con respecto a la local
+git pull
+
+#Agregar un archivo al repositorio
+git add nombreArchivo.txt
+git commit -m ""
+git push -u origin main
+
+#Crear un nuevo Branch o rama Nota: No pueden haber cambios pendientes
+git branch feature/login
+#Pasar a trabajar a la rama creada
+git checkout feature/login
+
+#Hacer un merge para unir ramas
+#Cambiar de rama
+git checkout main
+git merge feature/login
+
+
+
+

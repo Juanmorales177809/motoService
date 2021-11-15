@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión Usuarios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="font-size: xx-large; font-family: tahoma; font-weight: bold;">Equipo 25</a>
+
+
+            <span class="navbar-text">
+                <a href="#" style="text-decoration: none;">Gestión Ventas</a> &NonBreakingSpace;
+                <a href="#" style="text-decoration: none;">Soporte</a>&NonBreakingSpace;
+                <button style="border-radius: 50px;">JM</button>
+
+            </span>
+
+        </div>
+        </div>
+    </nav>
+    <hr style="margin: 0%;">
+
+    <h2 style="font-size: xx-large; font-weight: bold; margin :2%;margin-top: 50px; margin-left: 100px;">Gestion de
+        Usuarios</h2>
+    <a style="font-size: large; font-weight: bold; margin-top: 4%; margin-left: 10%; margin-block-end: 20%; ">USUARIOS
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <hr style="width: 80%; margin-left: 10%; border: 10px lightgray;border-radius: 10px">
+    <a href="" class="col-sm-1 col-form-label" style="color:lightgrey;font-family: Tahoma;text-decoration:none;margin-left: 87%;">Editar</a>
+
+
+    <table class="table" style="width: 80%; margin-left: 10%; ">
+        <thead>
+          <tr style="color: white; background-color: black;">
+            <br>
+            <br>
+            <th scope="col" style="width: 20%;font-size: small;">Nombre </th>
+            <th scope="col" style="width: 20%; font-size: small">Rol</th>
+            <th scope="col" style="width: 12%; font-size: small">Pendiente</th>
+            <th scope="col" style="width: 12%; font-size: small">Autorizado</th>
+            <th scope="col" style="width: 12%; font-size: small">No Autorizado</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <!-- ciclo for con los registros de las ventas -->
+          <tr>
+            <th scope="row">Camilo Cifuentes</th>
+            <td>
+                <div class="dropdown ">
+
+                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                        style="color: black; background-color: white ; margin-left: -12%;" ;id="dropdownMenu2" data-bs-toggle="dropdown"
+                        aria-expanded="false" >
+                        Elija un rol...
+                    </button>
+
+                    <ul class="dropdown-menu " aria-labelledby="dropdownMenu2">
+                        <li><button class="dropdown-item" type="button">Administrador</button></li>
+                        <li><button class="dropdown-item" type="button">Vendedor</button></li>
+                        
+                    </ul>
+
+                </div>
+            </td>
+            <td><input class="form-check-input" style="margin-left: 25px; margin-top: 5%" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked></td>
+            <td><input class="form-check-input" style="margin-left: 25px;margin-top: 5%" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked></td>
+            <td><input class="form-check-input" style="margin-left: 41px;margin-top: 5%" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked></td>
+            
+            
+            
+          </tr>
+    
+      </table>
+
+
+    
+
+    
+
+
+
+    <button type="button" class="btn btn-dark"
+        style="width: 20%; font-weight: bold; font-family: Tahoma; margin-left: 37%; margin-bottom: 10%; margin-top: 15%;">
+        Guardar </button>
+
+    <hr style="width: 80%; margin-left: 10%;border: 10px lightgray;border-radius: 10px; margin-top: -5%;">
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

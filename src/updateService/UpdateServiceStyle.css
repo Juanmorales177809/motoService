@@ -1,0 +1,105 @@
+.linea {
+    margin: 0%;
+}
+.linea2{
+    width: 80%; margin-left: 10%;border: 10px lightgray;border-radius: 10px;
+}
+.texti{
+    font-size: xx-large; 
+    font-weight: bold; 
+    margin-top: 5%; 
+    margin-left: 10px;
+    font-family:  Tahoma;
+
+}
+.texti0{
+    color: black;
+    font-family: Tahoma;
+    text-decoration:none;
+    margin-left: 11%;
+    margin-right: 3%;
+    font-size: small;
+}
+.texto2{
+font-size: large; 
+font-weight: bold; 
+margin-top: 100px; 
+margin-left: 10%;
+}
+.buto {
+    width: 15%; font-weight: bold; font-family: Tahoma
+}
+.line0 {
+    width: 80%; 
+    margin-left: 11%;
+    margin-top:1.5%;
+}
+.contenedor {
+    margin-left: 10%; width: 20%;
+}
+.entrada {
+    background-color: #EFEF91;
+}
+.but0{
+    
+    background-color: black; 
+    color: white; 
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 15px;
+    width: 200px;
+    height: 35px;
+}
+
+.busca{
+    margin-left: 10%; 
+    width: 20%;
+}
+.inpu{
+    background-color: #EFEF91;
+    margin-left: 22.5%;
+    height: 35px;
+    width: 175px;
+}
+.but1{
+    border-radius: 5px; 
+    background-color: black; 
+    color: white; 
+    font-weight: bold; 
+    font-family: Tahoma;
+    height: 35px;
+    margin-left: -48%;
+    
+}
+.row0{
+    margin-top: 1.5%;
+}
+.row1{
+    margin-top: 1%;
+    margin-left: 11.05%;
+    width: 80%;
+    font-family: Tahoma;
+}
+.but2{
+    margin-left: 40%;
+    width: 300px;
+    margin-top: 10%;
+}
+.line1{
+    width: 90%; 
+    margin-left: 2%;
+    margin-top:5%;
+}
+.edit{
+    color:lightgrey;
+    font-family: Tahoma;
+    text-decoration:none;
+    margin-left: 87%;
+    margin-top: 2%;
+    text-decoration: none;
+    
+    
+}
+.bot{
+    margin-left: 15%;
+}
