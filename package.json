@@ -1,0 +1,32 @@
+{
+  "name": "backtic",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanmorales177809/backtic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juanmorales177809/backtic/issues"
+  },
+  "homepage": "https://github.com/Juanmorales177809/backtic#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "div": "^2.0.1",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.2",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.16.0"
+  }
+}
